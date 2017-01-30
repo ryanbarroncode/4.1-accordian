@@ -2,10 +2,33 @@ ul, li {
   list-style: none; }
 
 h1 {
-  background: #739C1C; }
+  background: #739C1C;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid grey; }
+
+.clickedOn {
+  background-color: red; }
+
+h1:hover {
+  background-color: red; }
 
 .row {
   width: 250px;
   border: 3px solid black; }
+
+li {
+  height: 25px;
+  background-color: #E1E1E1;
+  border: 1px solid grey;
+  text-decoration: none; }
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
