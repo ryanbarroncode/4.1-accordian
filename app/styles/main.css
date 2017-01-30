@@ -5,16 +5,19 @@ h1 {
   background: #739C1C;
   padding: 0px;
   margin: 0px;
-  border: 1px solid grey; }
+  border: 1px solid grey;
+  font-size: 25px; }
 
 .clickedOn {
-  background-color: red; }
+  background-color: red;
+  color: white; }
 
 h1:hover {
-  background-color: red; }
+  background-color: red;
+  color: white; }
 
 .row {
-  width: 250px;
+  width: 350px;
   border: 3px solid black; }
 
 li {
@@ -23,6 +26,10 @@ li {
   border: 1px solid grey;
   text-decoration: none; }
 
+li:hover {
+  background-color: #55575C;
+  color: white; }
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -30,5 +37,37 @@ ul {
 
 a {
   text-decoration: none; }
+
+.numbers-count {
+  font-size: 12px;
+  padding-right: 10px;
+  font-weight: lighter; }
+
+.numbers-quantity {
+  color: white;
+  position: relative;
+  float: right;
+  border: 1px solid grey;
+  border-radius: 10px;
+  top: 3px;
+  background-color: grey;
+  width: 32px;
+  text-align: center; }
+
+.fa-inbox {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.fa-envelope {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.fa-cloud-download {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.fa-sign-out {
+  padding-left: 10px;
+  padding-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */
